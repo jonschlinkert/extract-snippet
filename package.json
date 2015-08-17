@@ -1,0 +1,47 @@
+{
+  "name": "extract-snippet",
+  "description": "Extract a snippet of code from a string.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/extract-snippet",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/extract-snippet",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/extract-snippet/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "add",
+    "block",
+    "cli",
+    "code",
+    "inject",
+    "insert",
+    "replace",
+    "snippet"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "inject-snippet",
+        "snippet",
+        "assemble",
+        "verb",
+        "scaffold"
+      ]
+    }
+  }
+}
